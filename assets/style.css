@@ -1,0 +1,74 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #dbdfdf
+}
+
+header {
+    padding: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color:rgb(49, 49, 49);
+    color: #90c9c9;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 45px;
+    padding: 5px;
+    background-color: #90c9c9;
+    color: rgb(49, 49, 49);
+}
+
+header nav {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-right: 15px;
+}
+
+header nav ul a {
+    list-style-type: none;
+    color: #90c9c9;
+    text-decoration: none;
+    border-bottom-width: 3px;
+    padding-bottom: 2px;
+    border-bottom-style: solid;
+}
+
+.hero {
+    height: 250px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../assets/images/dark-laptop.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.hero p {
+    padding: 10px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    background-color: #90c9c9;
+    color: rgb(49, 49, 49);
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+aside {
+    float: left;
+    margin-left: 200px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+}
