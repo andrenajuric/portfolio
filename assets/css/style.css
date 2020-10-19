@@ -9,7 +9,7 @@ body {
 }
 
 header {
-    padding: 10px;
+    padding: 10px 10px 10px 0px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color:rgb(49, 49, 49);
     color: #90c9c9;
@@ -18,7 +18,8 @@ header {
 header h1 {
     display: inline-block;
     font-size: 45px;
-    padding: 5px;
+    padding: 2.5px .5% 2.5px 5%;
+    text-align: right;
     background-color: #90c9c9;
     color: rgb(49, 49, 49);
 }
@@ -67,8 +68,39 @@ header nav ul a {
 }
 
 aside {
-    float: left;
-    margin-left: 200px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 25px;
+    float: left; 
+    width: 20%;
+    margin-right: .5%;
+    text-align: right;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    color: rgb(49, 67, 107);
+}
+
+.container {
+    display: flex;
+    margin-right: 5%;
+    border-left: 3px solid;
+    padding-left: 2%;
+    color: rgb(49, 67, 107);
+    line-height: 1.5em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#box1 {
+    width: 100%;
+    height: 200px;
+    background-image: url(../images/dark-laptop.jpg);
+    background-size: cover;
+    border: 3px solid;
+    opacity: 0.7;
+}
+
+#box2 {
+    background-image: url(../images/led\ wall.jpg);
+    width: 50%;
+    height: 100px;
+    background-size: cover;
+    border: 3px solid;
+    opacity: 0.7;
 }
