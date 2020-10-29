@@ -144,7 +144,6 @@ aside {
     background-position: bottom;
     border: 3px solid;
     opacity: 0.7;
-    margin: 10px 0px 10px 0px;
 }
 
 #box4:hover {
@@ -159,7 +158,6 @@ aside {
     background-position-y: 40%;
     border: 3px solid;
     opacity: 0.7;
-    margin: 10px 0px 10px 0px;
 }
 
 #box5:hover {
