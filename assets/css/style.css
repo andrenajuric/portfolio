@@ -10,18 +10,16 @@ body {
 
 header {
     padding: 10px 10px 10px 0px;
-    /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; */
     background-color:rgb(31, 33, 41);
 }
 
 header h1 {
     display: inline-block;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;    
     font-size: 45px;
     padding: 2.5px .5% 2.5px 5%;
     text-align: right;
     background-color: #b7acdd;
-    /* background-color: #90c9c9; */
     color: rgb(49, 49, 49);
 }
 
@@ -29,7 +27,7 @@ header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-size: 20px;
 }
 
@@ -60,7 +58,8 @@ header nav ul a {
 
 .hero p {
     padding: 10px;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
     font-size: 20px;
     background-color: #b7acdd;
     color: rgb(49, 49, 49);
@@ -74,7 +73,8 @@ aside {
     width: 20%;
     margin-right: .5%;
     text-align: right;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
     font-size: 50px;
     color: rgb(79, 49, 107);
 }
@@ -86,7 +86,8 @@ aside {
     padding-left: 2%;
     color: rgb(79, 49, 107);
     line-height: 1.5em;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
 }
 
 .worksamples {
@@ -109,9 +110,7 @@ aside {
 
 .work1 {
     position: absolute;
-    left: 100px;
-    padding: 5px;
-    width: 22%;
+    padding: 10px;
     bottom: 10px;
     left: 0;
     background: rgba(62, 29, 154, 0.72);
@@ -130,6 +129,7 @@ aside {
     border: 3px solid;
     opacity: 0.7;
     margin: 10px 0px 10px 0px;
+    position: relative;
 }
 
 #box2:hover {
@@ -138,19 +138,11 @@ aside {
 
 .work2 {
     position: absolute;
-    left: 100px;
-    padding: 5px;
-    width: 22%;
-    bottom: 0;
     left: 0;
-    text-align: center;
+    padding: 10px;
+    bottom: 5px;
     background: rgba(62, 29, 154, 0.72);
     color: #fff;
-}
-
-#box2:hover .work2 {
-    visibility: visible;
-    opacity: 1;
 }
 
 #box3 {
@@ -162,6 +154,7 @@ aside {
     border: 3px solid;
     opacity: 0.7;
     margin: 10px 0px 10px 0px;
+    position: relative;
 }
 
 #box3:hover {
@@ -170,19 +163,11 @@ aside {
 
 .work3 {
     position: absolute;
-    left: 100px;
-    padding: 5px;
-    width: 22%;
-    bottom: 0;
     left: 0;
-    text-align: center;
+    padding: 10px;
+    bottom: 5px;
     background: rgba(62, 29, 154, 0.72);
     color: #fff;
-}
-
-#box3:hover .work3 {
-    visibility: visible;
-    opacity: 1;
 }
 
 #box4 {
@@ -193,6 +178,7 @@ aside {
     background-position: bottom;
     border: 3px solid;
     opacity: 0.7;
+    position: relative;
 }
 
 #box4:hover {
@@ -201,19 +187,11 @@ aside {
 
 .work4 {
     position: absolute;
-    left: 100px;
-    padding: 5px;
-    width: 22%;
-    bottom: 0;
     left: 0;
-    text-align: center;
+    padding: 10px;
+    bottom: 5px;
     background: rgba(62, 29, 154, 0.72);
     color: #fff;
-}
-
-#box4:hover #work4 {
-    visibility: visible;
-    opacity: 1;
 }
 
 #box5 {
@@ -224,10 +202,20 @@ aside {
     background-position-y: 40%;
     border: 3px solid;
     opacity: 0.7;
+    position: relative;
 }
 
 #box5:hover {
     opacity: 1;
+}
+
+.work5 {
+    position: absolute;
+    left: 0;
+    padding: 10px;
+    bottom: 5px;
+    background: rgba(62, 29, 154, 0.72);
+    color: #fff;
 }
 
 #work {
