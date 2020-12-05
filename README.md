@@ -21,5 +21,6 @@ To create an updated responsive portfolio that showcases at least 3 exemplary as
 ## Process
 
 I used the portfolio that I had started for Assignment 2. I made CSS changes and made the page functional - using actual links rather than placeholders. I updated the resume section on my linkedin & used that as a link to my resume. 
-
-![portfolio demo](./assets/images/portfolio-demo)
+<br/>
+## Functionality: 
+![portfolio demo](./assets/images/portfolio-demo.gif)
