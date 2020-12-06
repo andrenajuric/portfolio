@@ -117,11 +117,11 @@ aside {
     color: #fff;
 }
 
-#box1:hover {
+#box1, #box2, #box3, #box4, #box5:hover {
     opacity: 1;
 }
 
-#box2 {
+#box2, #box3, #box4, #box5 {
     background-image: url(../images/horiseon.png);
     width: 49.5%;
     height: 100px;
@@ -132,84 +132,7 @@ aside {
     position: relative;
 }
 
-#box2:hover {
-    opacity: 1;
-}
-
-.work2 {
-    position: absolute;
-    left: 0;
-    padding: 10px;
-    bottom: 5px;
-    background: rgba(62, 29, 154, 0.72);
-    color: #fff;
-}
-
-#box3 {
-    background-image: url(../images/password-generator.png);
-    width: 49.5%;
-    height: 100px;
-    background-size: cover;
-    background-position-y: 100%;
-    border: 3px solid;
-    opacity: 0.7;
-    margin: 10px 0px 10px 0px;
-    position: relative;
-}
-
-#box3:hover {
-    opacity: 1;
-}
-
-.work3 {
-    position: absolute;
-    left: 0;
-    padding: 10px;
-    bottom: 5px;
-    background: rgba(62, 29, 154, 0.72);
-    color: #fff;
-}
-
-#box4 {
-    background-image: url(../images/pastel-puzzels.jpg);
-    width: 49.5%;
-    height: 100px;
-    background-size: cover;
-    background-position: bottom;
-    border: 3px solid;
-    opacity: 0.7;
-    position: relative;
-}
-
-#box4:hover {
-    opacity: 1;
-}
-
-.work4 {
-    position: absolute;
-    left: 0;
-    padding: 10px;
-    bottom: 5px;
-    background: rgba(62, 29, 154, 0.72);
-    color: #fff;
-}
-
-#box5 {
-    background-image: url(../images/run-buddy.jpg);
-    width: 49.5%;
-    height: 100px;
-    background-size: cover;
-    background-position-y: 40%;
-    border: 3px solid;
-    opacity: 0.7;
-    position: relative;
-}
-
-#box5:hover {
-    opacity: 1;
-}
-
-.work5 {
+.work2, .work3, .work4, .work5 {
     position: absolute;
     left: 0;
     padding: 10px;
